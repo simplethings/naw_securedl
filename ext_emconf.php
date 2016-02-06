@@ -15,7 +15,7 @@ $EM_CONF[$_EXTKEY] = array(
 	'description' => '"Secure Download": Apply TYPO3 access rights to ALL file assets (PDFs, TGZs or JPGs etc. - configurable) - protect them from direct access.',
 	'category' => 'fe',
 	'shy' => 0,
-	'version' => '1.8.2',
+	'version' => '1.8.3',
 	'dependencies' => 'cms',
 	'conflicts' => '',
 	'priority' => '',
@@ -35,8 +35,8 @@ $EM_CONF[$_EXTKEY] = array(
 	'constraints' => array(
 		'depends' => array(
 			'cms' => '',
-			'php' => '5.3.0-5.5.99',
-			'typo3' => '4.5.0-6.2.99',
+			'php' => '5.6.1-5.9.99',
+			'typo3' => '7.6.0-7.9.99',
 		),
 		'conflicts' => array(
 		),
