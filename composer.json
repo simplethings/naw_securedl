@@ -6,10 +6,10 @@
   "license": [
     "GPL-2.0+"
   ],
-  "version": "1.8.3",
+  "version": "1.8.4",
   "require": {
-    "php": ">=5.6.1,<6.0",
-    "typo3/cms-core": ">=7.6,<8.0"
+    "php": ">=7.0,<8.0",
+    "typo3/cms-core": ">=7.6,<9.0"
   },
   "replace": {
     "naw_securedl": "self.version",
